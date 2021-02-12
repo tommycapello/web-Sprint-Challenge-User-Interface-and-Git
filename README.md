@@ -25,7 +25,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your we
 
 [Click here for the about page example](https://tk-assets.lambdaschool.com/ede1bb1a-63ff-4801-8c02-3efa2f603190_sprint-challenge-ui-about-example.png)
 
-## Self-Study Questions 
+## Self-Study Questions
 ### (please edit this file and write your answer below each question. In addition, you may also review these questions with your mentor)
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML is used to provide a meaning behind the structure of the webpage. It is used by humans, browsers, and screen readers to provide context to information on the webpage. While designing a web page it is important to separate presentation and content. Non=semantic elements like <div> or <span> are used as containers for styling rather and do not provide meaning to the interpreter.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+One of the biggest differences between block and inline display values for HTML elements is that the block value will make an element start on a new line and take up the full width available. The inline display value will not start the element on a new line. The display of inline-block allows use to adjust the height and width of the elements that are block level by default.
 
 3. What are the 4 areas of the box model?
 
+All HTML elements are boxes. The box model is comprised of content at the center, followed by padding representing the area between the content and border. The border surrounds the content and padding. Margin is the final layer of the box model and it represents the space around the border and its contents.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+The align-items property controls the alignment of items on the cross axis. The cross axis runs perpindicular to the main axis. When you set the value of the align-items property to center, the flexbox items will position themselves around the center.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a poweful system for developers to track versions of software. It allows for large scale asynchronous development that does not have to rely on a centralized version of the software. The power of Git is that every developer can have a full repository with full version control capabilities that is independent of a centralized server. Developer teams can work on branches to work in a nonlinear direction to speed the development cycle.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -50,11 +60,11 @@ You are expected to be able to answer all these questions. Your responses contri
 - [done] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [done] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [done] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push -u origin `<firstName-lastName>`.
- 
+- [done] Push commits: git push -u origin `<firstName-lastName>`.
+
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [done] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 
 
 
@@ -66,39 +76,39 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [done] Build the HTML and CSS to create the missing navigation and header.
+* [done] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [done] box1: `teal`
+* [done] box2: `gold`
+* [done] box3: `cadetblue`
+* [done] box4: `coral`
+* [done] box5: `crimson`
+* [done] box6: `forestgreen`
+* [done] box7: `darkorchid`
+* [done] box8: `hotpink`
+* [done] box9: `indigo`
+* [done] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [done] Copy and paste your home page navigation and header into the about page
+* [done] Update the header image with the about page image
+* [done] Link the `Home` navigation item back to the `index.html` page.
+* [done] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
-Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout. 
+Note: Please make sure you are using flexbox to layout your website. Floats, inline-block, tables, etc, should not be used for layout.
 
 ## Stretch Problems
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.  
+* [ ] refactor your HTML, make sure it's indented properly, clean, readable, you have written appropriate comments where necessary and that all attributes (required and encouraged) are filled out correctly.
 * [ ] Ensure your CSS is organized and readable, you've seperated your code by section and that you are using descriptive class names and adding classes in your HTML where styles repeat rather than rewrting the same styles over again
-* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property 
+* [ ] Use a flex item property of your choice when laying out a section of your website, ensure you can explain how and why you've used this property
